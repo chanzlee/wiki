@@ -1,0 +1,21 @@
+.left{
+  float: left;
+  width: 25%;
+  margin-right: 7px;
+}
+
+.author {
+  float: right;
+}
+
+.right{
+  float: right;
+  width: 25%;
+  margin-left: 7px;
+}
+
+img.right{
+  float: right;
+  width: 100%;
+  margin-left: 7px;
+}

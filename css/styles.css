@@ -1,8 +1,48 @@
-img.left{
+.left{
   float: left;
   width: 25%;
   margin-right: 7px;
 }
+
 .author {
   float: right;
+}
+
+.right{
+  float: right;
+  width: 25%;
+  margin-left: 7px;
+}
+
+.height {
+  height: 50%;
+}
+
+img.right{
+  float: right;
+  width: 100%;
+  margin-left: 7px;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+.today {
+  height: 520px;
+}
+
+/*.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+.today-col {
+  height: inherit;
+}
+.panel{
+  height: inherit;
 }
