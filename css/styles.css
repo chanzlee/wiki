@@ -43,6 +43,15 @@ img.right{
 .today-col {
   height: inherit;
 }
+
 .panel{
   height: inherit;
+}
+
+.well {
+  min-height: 100px;
+}
+
+.fuck {
+  text-align: right;
 }
